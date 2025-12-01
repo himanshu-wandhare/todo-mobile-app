@@ -4,13 +4,13 @@ A full-stack todo application built with React Native (Expo) and FastAPI, featur
 
 ## Screenshots
 
-<div style="display: flex; gap: 10px; justify-content: center">
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center">
   <img src="./assets/images/register.jpg" width="30%" />
   <img src="./assets/images/login.jpg" width="30%" />
   <img src="./assets/images/user_profile.jpg" width="30%" />
 </div>
 <br>
-<div style="display: flex; gap: 10px; justify-content: center">
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center">
   <img src="./assets/images/dashboard_1.jpg" width="30%" />
   <img src="./assets/images/create_todo.jpg" width="30%" />
   <img src="./assets/images/dashboard_2.jpg" width="30%" />
