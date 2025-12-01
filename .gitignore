@@ -1,43 +1,193 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
-node_modules/
+app-example
 
+#===================================
+# React Native / Expo
+#===================================
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
-.DS_Store
-*.pem
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# local env files
+# Environment variables
+.env
+.env.local
+.env.*.local
 .env*.local
 
 # typescript
 *.tsbuildinfo
 
-app-example
+# Native
+.kotlin/
+*.orig.*
 
 # generated native folders
 /ios
 /android
+
+# ============================================
+# Python / FastAPI Backend
+# ============================================
+
+# Virtual Environment
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# ============================================
+# IDEs and Editors
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, PyCharm, IntelliJ)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# Operating System
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Logs
+# ============================================
+
+logs/
+*.log
+
+# ============================================
+# Temporary files
+# ============================================
+
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ============================================
+# Database (if using local databases)
+# ============================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Secrets and Keys
+# ============================================
+
+*.pem
+*.key
+*.cert
+.env.production
+secrets.json
+config.json
+
+# ============================================
+# Build outputs
+# ============================================
+
+build/
+out/
+*.apk
+*.ipa
+*.app
+
+# ============================================
+# Metro bundler (React Native)
+# ============================================
+
+.metro-health-check*
+
+# ============================================
+# Misc
+# ============================================
+
+.watchmanconfig
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
